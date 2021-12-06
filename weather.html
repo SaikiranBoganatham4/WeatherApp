@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+                        <div class="header_top">
+                            <li class="header_top_heading">
+                                <h3 class="navbar-brand">Weather Forecast</h3>
+                                <p>Sunday 1,January 2022</p>
+                            </li>
+                            <li class="Search_bar">
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                </form>
+                            </li>
+                            <li class="nav-item top_mid">
+                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link disabled" href="#">Disabled</a>
+                            </li>
+                            <li>
+                                <div class="dropdown Profile_icon">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Dropdown link
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </li>
+                    </nav>
+                </ul>
+                <ul class="content_structure">
+    
+                    <div class="left">
+                        <div>
+                            <li class="main_img">
+                                <img src="climate.jpg" height="150px" width="880px">
+                            </li>
+                        </div>
+                        <div class="content_days col-lg-12">
+                            <ul class="content_heading">
+                                <li class="head col-lg-9">
+                                    <button>
+                                        Today
+                                    </button>
+                                    <button>
+                                        Weekly
+                                    </button>
+                                </li>
+                                <li class="tail col-lg-9">
+                                    <button>∘Celsius</button>
+                                    <button>∘Fahrenheit</button>
+                                </li>
+                            </ul>
+                            <ul class="week col-lg-12">
+                                <div class="card day col-lg-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sunday</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Partly</h6>
+                                        <p class="card-text">15∘</p>
+                                        <a href="#" class="card-link">Rainy</a>
+                                        <a href="#" class="card-link">10km/h</a>
+                                    </div>
+                                </div>
+                                <div class="card day col-lg-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Monday</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Partly </h6>
+                                        <p class="card-text">19∘</p>
+                                        <a href="#" class="card-link">Cold</a>
+                                        <a href="#" class="card-link">10km/h</a>
+                                    </div>
+                                </div>
+                                <div class="card day col-lg-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tuesday</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Partly</h6>
+                                        <p class="card-text">25∘</p>
+                                        <a href="#" class="card-link">Warm</a>
+                                        <a href="#" class="card-link">10km/h</a>
+                                    </div>
+                                </div>
+                                <div class="card day col-lg-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Wednesday</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Partly</h6>
+                                        <p class="card-text">21∘</p>
+                                        <a href="#" class="card-link">Cold</a>
+                                        <a href="#" class="card-link">10km/h</a>
+                                    </div>
+                                </div>
+                                <div class="card day col-lg-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Thursday</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Partly</h6>
+                                        <p class="card-text">32∘</p>
+                                        <a href="#" class="card-link">Warm</a>
+                                        <a href="#" class="card-link">10km/h</a>
+                                    </div>
+                                </div>
+                                <div class="card day col-lg-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Friday</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Partly</h6>
+                                    <p class="card-text">22∘</p>
+                                    <a href="#" class="card-link">Cold</a>
+                                    <a href="#" class="card-link">10km/h</a>
+                                </div>
+                            </div>
+                            <div class="card day col-lg-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Saturday</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Partly</h6>
+                                    <p class="card-text">28∘</p>
+                                    <a href="#" class="card-link">Sunny</a>
+                                    <a href="#" class="card-link">10km/h</a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                   <b> <p>Today's Highlights</p></b>
+                    <div class="todays_highlight col-lg-12">
+                        <div class="card day col-lg-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Sunrise  Sunset</h5>
+                                <a href="#" class="card-link">5:50AM</a>
+                                <a href="#" class="card-link">5:30PM</a>
+                                
+                            </div>
+                        </div>
+                        <div class="card day col-lg-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Temp.Graph</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Temp. Increasing Slowly</h6>
+                                
+                            </div>
+                        </div>
+                        <div class="card day col-lg-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Air Quality Index</h5>
+                                <h5 class="card-title">95*  MODERATE</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="calendar card">
+                        <img src="calendar.jpg" alt="calendar" height="200px" width="200px">
+                    </div>
+                    <div class="NewsLetter" style="text-align: center;">
+                    <div class="card">
+                        <h5 class="card-title"><i class="fa-solid fa-city"></i>Subscribe To Our NewsLetter </h5>
+                    </div>
+                    </div>
+                
+                       
+                    </div>
+
+                </div>
+
+
+    </div>
+    
+</body>
+</html>
